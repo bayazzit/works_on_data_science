@@ -7,7 +7,6 @@ import plotly.graph_objects as go
 
 def main():
     # Importing Data
-    st.header("BAHADIR BAYAZIT HOMEWORK 1",)
     st.header("Dataset")
     cal_housing = fetch_california_housing()
     X = pd.DataFrame(cal_housing.data, columns=cal_housing.feature_names)
